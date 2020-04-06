@@ -1,0 +1,240 @@
+@font-face {
+  font-family: akzidenz;
+  src: url(../fonts/Akzidenz-grotesk-ce-roman.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+ 
+::after, ::before {
+  box-sizing: border-box;
+}
+   
+h1, h2, h3, h4, h5, h6, ol, ul, p, address, strong, i {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+   
+ul, li {
+  list-style: none;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+body {
+  font-family: akzidenz, sans-serif;
+  font-size: 14px;
+  color: #111;
+}
+
+
+/* basic css end */
+
+/* common css start */
+
+.border-bottom-dark {
+  border-bottom: 1px solid #000;
+}
+
+.bg-pink {
+  background: #FF265B;
+}
+
+.text-pink {
+  color: #FF265B;
+}
+
+
+.my-btn {
+  text-transform: uppercase;
+  font-size: 25px;
+  color: #fff;
+  font-weight: bold;
+  background: #FF265B;
+  padding: 15px 30px;
+  text-align: center;
+  width: 80%;
+  display: block;
+  border-radius: 50px;
+  margin: auto;
+  border: 2px solid transparent;
+}
+.my-btn:hover {
+  color: #fff;
+  background: rgb(212, 32, 77);
+}
+
+
+/*// end of common css */
+
+/* main css start */
+
+/* ===== header part start ======= */
+.header .header-top {
+  padding: 10px 15px;
+}
+.header .top-right {
+  text-align: right;
+  display: grid;
+  place-items: center;
+}
+.header .top-right span {
+  width: 50px;
+  height: 50px;
+  background: #414141;
+  display: grid;
+  place-items: center;
+  margin-left: auto;
+  border-radius: 50%;
+  color: #fff;
+}
+.header-bottom li {
+  display: inline-block;
+  padding: 10px;
+  text-align: center;
+}
+.header-bottom li a{
+ color: #111;
+ font-weight: 600;
+ text-transform: uppercase;
+ letter-spacing: 1px;
+}
+.header-bottom li a:hover{
+ color: #FF265B;
+}
+/* =====// end of header part ======= */
+
+/* =====free-delivery part start ======= */
+.free-delivery {
+  padding: 30px 0;
+  font-size: 18px;
+}
+.free-delivery i{
+  font-size: 25px;
+  margin-right: 10px;
+  color: #444;
+}
+/* =====// end offree-delivery part ======= */
+.main-counter li{
+  display: inline-block;
+  padding: 10px 25px;
+}
+.main-counter li span{
+  font-size: 45px;
+  font-weight: 600;
+}
+.main-counter {
+  border-bottom: 2px solid #fff;
+}
+
+/* ===== banner part start ======= */
+
+.banner .img-box img {
+  /* position: absolute; */
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.banner .bnr-text {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%)
+  /* padding-top: 600px; */
+}
+
+.banner .bnr-text h2 {
+  font-weight: 600;
+  margin-bottom: 0;
+  line-height: 70px;
+}
+.banner .bnr-text h3 {
+  font-size: 80px;
+}
+
+/* =====// end of banner part ======= */
+
+/* ===== download app part start ======= */
+.discount-code {
+  width: 80%;
+  margin: auto;
+  border: 2px solid #fff;
+}
+
+.discount-code p {
+  font-size: 18px ;
+  padding: 5px 0;
+}
+
+.download-app .btn {
+  border: 2px solid #fff;
+  border-radius: 25px;
+  width: 80%;
+  color: #fff;
+  font-weight: 600;
+  font-size: 25px;
+}
+.download-app .btn:hover {
+  background: #FF265B;
+  background: #fff;
+  color: #111;
+}
+/* =====// end of download app part ======= */
+
+
+/* ===== gallery part start ======= */
+.full-gall {
+  background: #f9f9f9;
+}
+/* =====// end of gallery part ======= */
+
+
+/* ===== color-btn part start ======= */
+.all-btn {
+  background: #f9f9f9;
+}
+/* =====// end of color-btn part ======= */
+
+/* ===== link part start ======= */
+.link .link-top a{
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #111
+}
+.link .link-top a:hover{
+  color: #FF265B;
+}
+
+.link .social-link li{
+    display: inline-block;
+    padding: 15px;
+}
+.link .social-link li i{
+  font-size: 30px;
+  color: #111;
+}
+.link .social-link li i:hover{
+  color: #FF265B;
+}
+/* =====// end of link part ======= */
+
+/* ===== footer part start ======= */
+footer .foot-link li {
+  display: inline-block;
+  padding: 15px;
+}
+footer .foot-link li a{
+  color: #fff;
+}
+footer .foot-link li a:hover{
+  text-decoration: underline;
+}
+/* =====// end of footer part ======= */
